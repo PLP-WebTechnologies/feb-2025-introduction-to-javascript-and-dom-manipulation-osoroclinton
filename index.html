@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Manipulation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Linking the CSS file -->
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Welcome to JavaScript DOM Manipulation</h1>
+    </header>
+
+    <!-- Change Text Content Section -->
+    <section>
+        <h2>Change Text Content</h2>
+        <p id="dynamic-text">This is the original text. Click the button to change it.</p>
+        <button onclick="changeText()">Change Text</button>
+    </section>
+
+    <!-- Modify CSS Styles Section -->
+    <section>
+        <h2>Modify CSS Styles</h2>
+        <p id="dynamic-style">This text will change its style.</p>
+        <button onclick="changeStyle()">Change Style</button>
+    </section>
+
+    <!-- Add or Remove Elements Section -->
+    <section>
+        <h2>Add or Remove Elements</h2>
+        <button onclick="addElement()">Add Element</button>
+        <p id="remove-me">This paragraph can be removed. Click the button below to remove it.</p>
+        <button onclick="removeElement()">Remove Element</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 JavaScript DOM Manipulation. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Linking the JavaScript file -->
+</body>
+</html>
